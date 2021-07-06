@@ -1,0 +1,62 @@
+.darkmode{
+    background-color: #2C2C30;
+    color: burlywood;
+}
+
+.lightmode{
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+}
+
+body{
+    transition: 1.4s;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+button{
+    opacity: 100%;
+}
+
+.objects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.objects__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.icon{
+    height: 120px;
+    width: 240px;
+    background-color: green;
+    opacity: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.4s;
+    border: solid 1px;
+    margin: 10px;
+}
+
+.icon__dark{
+    color: blanchedalmond;
+
+}
+
+.icon__light{
+    color:black;
+}
